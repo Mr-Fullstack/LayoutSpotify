@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+/*bootcss*/
+
+li{
+    list-style-type: none;
+}
+
+/*style*/
+body{
+    background-color: rgb(14, 14, 14);
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+.wrapper{
+    position: relative;
+}
+.list-group-item{
+    background: transparent;
+    color: white; 
+}
+.menu{
+    max-width: 200px;
+    font-size: 11px;
+    font-weight: 400;
+    margin: .5rem 0;
+    color: #a3a3a3;
+}
+.menu>ul>li{
+    margin: .5rem 0;
+}
+.menu>ul>li>ul>li{
+    margin: .5rem 0;
+    font-size: 10.5px;
+    letter-spacing: .6px;
+    padding-left: 1rem;
+    transform: scale(1.2,1.2);
+}
+
+.menu>ul>li>ul>li:hover{
+    color: white;
+    cursor: default;
+}
+.social{
+    max-width: 200px;
+}
+
+.main{
+    background-color: rgb(23, 23, 23);
+    min-height: 750px;
+}
+/*player*/
+.player{
+    background-color: #212121;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    color: #949494;
+    padding: .5rem;
+}
+.duration{
+    font-size: 10.5px;
+    transform: scale(1.2,1);
+    font-weight: 200;
+}
+.range{
+    background-color: #404040;
+    border-radius: 15px;
+    width: 100%;
+    height: 0px;
+    border: 2px solid transparent; 
+}
+
+.container-ranger{
+    background-color:rgb(160, 160, 160);
+    width: 15%;
+    border-radius: 15px;
+    border: 2px solid transparent;
+    margin-left: -2px;
+}
+.player-duration:hover>.range>.container-ranger{
+    background-color:rgba(4, 175, 4, 0.89);
+}
+.rounded-ranger{
+    display: none;
+    left: 0;
+    top: 0;
+    margin-left: -4px;
+    z-index: 9;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.player-duration:hover>.range>.rounded-ranger{
+    display: block;
+}
+
+@media (max-width: 960px) { 
+     .social{
+       display: none;
+     }
+ }
+@media (max-width: 768px) { 
+
+    .menu{
+       order: 3;
+       left: 0;
+       width: 100%;
+       position:fixed;
+    }
+    .main{
+        order: 1;
+     }
+     .social{
+       display: none;
+     }
+ }

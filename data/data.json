@@ -1,0 +1,45 @@
+ {
+     "account":{
+        "name":"Marcos Antonio",
+        "mail":"mrfullstack@gmail.com",
+        "playlists":["This is Alan Walker", "This is Sub Urban"],
+        "likedMusic":["Spectre"],
+        "albums":[
+            {
+            "name":"This is Alan Walker",
+            "artist-name":"Alan Walker",
+            "duration":"60:45",
+            "cover":"album-capa-prince-royce.jpg",
+            "list-music":["Spectre"]
+            },
+            {
+            "name":"TThis is Sub Urban",
+            "artist-name":"Sub Urban",
+            "duration":"60:45",
+            "cover":"album-capa-prince-royce.jpg",
+            "list-music":["Cradles"]
+            }
+        ],
+        "medias":[
+            {
+            "name":"Spectre",
+            "artista-name":"Alan Walker",
+            "duration":"03:51",
+            "year":"2015",
+            "Description":"Single",
+            "cover":"./media/cover/Alan Walker - Spectre.jpg",
+            "albums-names":[]
+            },
+            {
+              "name":"Cradles",
+              "artista-name":"Sub Urban",
+              "duration":"03:30",
+              "year":"2019",
+              "Description":"Single",
+              "cover":"./media/cover/Sub Urban - Cradles.jpg",
+              "albums-names":[]
+            }
+          ]  
+    } 
+}  
+
